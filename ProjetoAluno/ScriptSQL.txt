@@ -1,0 +1,13 @@
+create database exercicio1504;
+use exercicio1504;
+
+create table alunos (
+id int auto_increment primary key,
+nome varchar(200) not null,
+telefone varchar(11) not null,
+status varchar(15)
+);
+
+insert into exercicio1504.alunos (nome, telefone, status) values ('Jeferson Cavalcante', '11953330471', 'ATIVO');
+insert into exercicio1504.alunos (nome, telefone, status) values ('Kerolin Tais', '11969854203', 'ATIVO');
+insert into exercicio1504.alunos (nome, telefone, status) values ('Larissa Cavalcante', '11989652347', 'INATIVO');
