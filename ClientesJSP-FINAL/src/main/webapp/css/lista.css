@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.form-content-erro
+{	
+	position: relative;
+	margin: auto;
+	margin-top: 15%;
+	width: 500px;
+    padding: 2%;
+    border: 1px solid #ced4da;
+    /*margin-bottom: 2%;*/
+}
+.note
+{
+	margin-top: 50px;
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
